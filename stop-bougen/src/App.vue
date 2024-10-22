@@ -1,34 +1,21 @@
-<script></script>
-
 <template>
-  <v-btn>aaa</v-btn>
+  <!-- <div id="app" class="background"> -->
+  <h1>Hello, Vue.js!</h1>
+  <!-- </div> -->
 </template>
 
+<script>
+export default {
+  name: 'App',
+}
+</script>
+
 <style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
+/* .background {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+} */
 </style>
